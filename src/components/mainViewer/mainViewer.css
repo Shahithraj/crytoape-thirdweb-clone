@@ -1,0 +1,98 @@
+.mainViewer {
+  max-height: 50vh;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.apeHighlight {
+  flex: 0.20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apeContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 30px;
+  height: 40vh;
+  width: 100%;
+}
+
+img.selectedApe {
+ height: 100%;
+ width: 100%;
+  object-fit: cover;
+}
+
+.apeDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.80;
+}
+
+.apeTitle {
+  font-size: 90px;
+  font-weight: 800;
+}
+
+span.itemNumber {
+  font-size: 66px;
+  color: #a1a5b0;
+  padding-left: 10px;
+}
+
+.owner {
+  display: flex;
+  height: 50px;
+  margin: 10px 0px;
+}
+
+.ownerImageContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.ownerImageContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.ownerDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.ownerNameAndHandle {
+    flex: 1;
+}
+
+.ownerHandle {
+    color: #00ebfe;
+  }
+
+  .ownerLink {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+
+.ownerLink img {
+    width: 100%;
+    height: 100%;
+}
